@@ -2,4 +2,4 @@
 
 Hi Hello Welcome.
 
-Created this repo to collate all basic Python scripts.
+Created this repo to collate Python scripts.
