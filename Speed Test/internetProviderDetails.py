@@ -6,10 +6,14 @@ speedTest = Speedtest()
 
 def best_provider():
     all_server = speedTest.get_best_server()
-    return all_server
+    return all_server, all_server['name'], all_server['sponsor']
 
 
-print("Best server near by is {}".format(best_provider()))
+detailed, Location, Provider = best_provider()
+print("Best server near by : {}".format(Provider))
+print("Best server Location near by : {}".format(Location))
+print("Best server near by Detail : {}".format(detailed))
+print('\n')
 
 
 def closest_internet_providers():
@@ -18,7 +22,8 @@ def closest_internet_providers():
     return sponsor
 
 
-print(closest_internet_providers())
+print("Closest Internet Server Name : {}".format(closest_internet_providers()))
+print('\n')
 
 
 def detailed_closest_internet_providers():
@@ -26,7 +31,8 @@ def detailed_closest_internet_providers():
     return providers
 
 
-print(detailed_closest_internet_providers())
+print("Closest Internet Server Details are {}".format(closest_internet_providers()))
+print('\n')
 
 
 def all_internet_providers():
@@ -34,4 +40,5 @@ def all_internet_providers():
     return all_server
 
 
-print(all_internet_providers())
+print("All Internet Service Providers by SpeedTest is {}".format(all_internet_providers()))
+print('\n')
