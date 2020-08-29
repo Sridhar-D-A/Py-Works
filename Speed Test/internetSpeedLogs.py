@@ -41,3 +41,5 @@ def all_speed():
 
 
 all_speed()
+
+# Using Task Scheduler in windows, Schedule this Program for every day and repeat it for every 3/6/12 hour.
