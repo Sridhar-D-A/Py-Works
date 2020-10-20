@@ -10,7 +10,7 @@ STEP 5 : Set the time of the Trigger and it's occurence
 
 STEP 6 : Set the type of Action [Eg: Start a program]
 
-STEP 7 : Create a .BAT file with the content to execute python file [Eg : <python path><space><"path of Python File">] , browse and place in Program script
+STEP 7 : Place the Python Application path in Program/Script placeholder . In "Add Argument" placeholder , provide the name of your py file name . In "StartIn" placeholder , place the folder path of your py file location.
 
 STEP 8 :  Review the Task Summary and Click on Opening Property Dialog Box , in order to set custom time of Trigger and few custom properties
 
